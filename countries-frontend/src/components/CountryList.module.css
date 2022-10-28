@@ -1,0 +1,13 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 3px;
+    padding: 0 7px;
+    list-style-type: none;
+    overflow-y: auto;
+}
+
+.status {
+    margin-top: 50px;
+    text-align: center;
+}

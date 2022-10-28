@@ -1,0 +1,41 @@
+.view {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25%;
+}
+
+.button {
+    width: 160px;
+    height: 80px;
+    margin: 20px 0 100px 0;
+    font-size: 20px;
+    background: #bdbdbd;
+    cursor: pointer;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image {
+    width: 320px;
+    height: 213px;
+}
+
+.country {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.status {
+    margin-top: 90px;
+}

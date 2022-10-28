@@ -1,0 +1,22 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 10px;
+    border-bottom: 1px solid #9e9e9e;
+    cursor: pointer;
+}
+
+.item:hover {
+    background: #eeeeee;
+}
+
+.image {
+    width: 135px;
+    height: 90px;
+}
+
+.title {
+    flex-grow: 1;
+    margin-left: 20px;
+}
